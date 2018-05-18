@@ -1,14 +1,14 @@
 {
   "name": "@phacce/ms-app",
   "version": "0.1.0",
-  "description": "A Nodejs microservice app",
+  "description": "A Nodejs microservice app setup",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "none"
+    "url": "https://github.com/phacce/ms-app.git"
   },
   "keywords": [
     "express",
