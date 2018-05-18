@@ -2,7 +2,7 @@
 This is an express-based Nodejs module which sets up an application with basic functionalities such as form inputs, file uploads, Json Web Token (JWT) authentications and Requests rate limiting.
 
 ## Installation
-Use the following command to install this package in your project
+Use the following command to install this package
 
 `npm install --save @phacce/ms-app`
 
