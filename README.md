@@ -55,7 +55,9 @@ Here, `entityName`, under `allowed`, refers to anything that is a collection in 
 
 Pass your token in the request header in the `_token` field. To generate a token, use
 ```js
-app.generateJWT('your_object_having_an_id_for_your_document_in_the_db', encryptionKey, secret);
+const { token } = require('@phacce/ms-app');
+
+let myToken = token.generate('your_object_having_an_id_for_your_document_in_the_db', encryptionKey, secret);
 ```
 **NB**: JWT currently supports only MongoDB.
 
